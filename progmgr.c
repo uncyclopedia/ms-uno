@@ -13,4 +13,12 @@ int main(int argc, char* argv[]);
   printf("Loading GUI from C:\MSUNO\RESOURCE\PROGMGR.GUI...\n");
   printf("Loading icon list from C:\MSUNO\RESOURCE\ICONS.ICL...\n");
   printf("Drawing C:\MSUNO\RESOURCE\PROGMGR.GUI...\n");
+  printf("[WARN] 1920x1680x256 monitor found. Using 80x25x2 as resolution...")
   /*
+  As of right now, the drawer program only supports 80x25x2 (80px width, 25px height, 2 colors) or lower. Monitors exceeding this requirement will be treated as a 80x25x2 monitor.
+  */
+  printf("--------------------------------------------------------------------------------\n")
+  printf("|                                                                 |-|  |O| |X| |\n")
+  printf("--------------------------------------------------------------------------------\n")
+  printf("|                                                                              |\n")
+  
